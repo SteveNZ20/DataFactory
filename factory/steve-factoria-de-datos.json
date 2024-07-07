@@ -1,0 +1,9 @@
+{
+	"name": "steve-factoria-de-datos",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "10c989ff-5d64-447a-aa39-f795fc1d98bd",
+		"tenantId": "046ff7b7-0c2f-479d-9df8-bb0e64c4e027"
+	}
+}
