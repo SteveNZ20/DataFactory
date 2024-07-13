@@ -1,0 +1,28 @@
+{
+	"name": "plata_a_oro",
+	"properties": {
+		"activities": [
+			{
+				"name": "Plata a Oro",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/franconz17@gmail.com/Capa Oro"
+				},
+				"linkedServiceName": {
+					"referenceName": "AzureDatabricks_FactoriaDatos",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": []
+	}
+}
